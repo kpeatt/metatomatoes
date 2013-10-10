@@ -13,7 +13,7 @@
 
 </head>
 <body>
-    <script type="text/x-handlebars" data-template-name="game/index">
+    <script type="text/x-handlebars" data-template-name="game">
 
     {{input type="text" id="new-game" placeholder="Add a game"
               value=newTitle action="createGame"}}
@@ -42,12 +42,6 @@
             {{/each}}
             </tbody>
         </table>
-
-    </script>
-
-    <script type="text/x-handlebars" data-template-name="game">
-
-        {{outlet}}
 
     </script>
 
